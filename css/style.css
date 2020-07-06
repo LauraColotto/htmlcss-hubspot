@@ -92,6 +92,11 @@ button{
  margin: auto;
 }
 
+header li{
+  list-style: none;
+  display: inline-block;
+}
+
 header{
   width: 100%;
   margin:auto;
@@ -207,7 +212,9 @@ header{
 
 .div-white{
   width: 100%;
-  padding: 80px 100px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  padding: 100px;
   background-color: white;
   border-radius: 10px;
   -webkit-box-shadow: 0px 0px 6px 0px rgba(214,211,214,1);
@@ -266,14 +273,13 @@ header{
 .verticalwhite{
   float: left;
   width: 30%;
-  margin-top: 80px;
   padding: 10px 40px;
 }
 
 .verticalwhite-central{
   float: left;
   margin: 0 5%;
-  margin-top: 80px;
+  margin-top: 40px;
   width: 30%;
   padding: 10px 40px;
 }
