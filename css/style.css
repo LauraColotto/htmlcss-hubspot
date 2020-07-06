@@ -3,6 +3,7 @@
   margin: 0;
   padding: 0;
   font-family: 'Raleway', sans-serif;
+  font-weight: 500;
   color: #33475b;
 }
 
@@ -53,7 +54,7 @@ a{
 
 button{
   border-radius: 5px;
-  padding: 15px 30px;
+  padding: 20px 35px;
   text-align: center;
   font-family: 'Raleway', sans-serif;
   font-size: 14px;
@@ -78,6 +79,10 @@ button{
 
 .fa-search{
   color:#00a4bd;
+}
+
+.fa-check-circle{
+  color: #fe775a;
 }
 
 .container{
@@ -220,13 +225,11 @@ header li{
 .infowhite-left{
   float: left;
   width: 20%;
-  height: 300px;
   text-align: center;
 }
 
 .infowhite-right{
   float: left;
-  height: 300px;
   width: 75%;
   padding-left: 100px;
 }
@@ -236,4 +239,35 @@ header li{
   height: 140px;
   margin: auto;
   margin-bottom: 30px;
+}
+
+.infowhite-right h4{
+  display: inline-block;
+}
+
+.infowhite-right hr{
+  display: inline-block;
+  border: 1px solid #33475b;
+  width: 60%;
+  margin-left: 40px;
+  text-align: right;
+}
+
+.check{
+  padding-top: 40px;
+}
+
+.check i{
+  margin: 0 10px;
+}
+
+.check i:first-child{
+  margin-left: 0px;
+}
+
+.verticalwhite{
+  float: left;
+  width: calc(100%/3);
+  height: 500px;
+  background-color: blue;
 }
