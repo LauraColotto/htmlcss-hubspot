@@ -11,12 +11,18 @@ h1{
   font-size: 60px;
 }
 
+h2{
+  font-weight: 800;
+  font-size: 40px;
+}
+
 p{
   font-weight: 500;
   line-height: 30px;
+  padding: 35px 0;
 }
 
-header::after{
+.Clear::after{
   content: "";
   display: table;
   clear: both;
@@ -142,9 +148,9 @@ header li{
   padding-top: 70px;
 }
 
-.presentation p{
+/* .presentation p{
   padding: 35px 0;
-}
+} */
 
 
 #horizontalgreen{
@@ -153,4 +159,25 @@ header li{
   border-top: 2px solid #33475b;
   border-bottom: 2px solid #33475b;
   background-color: #afebe4;
+}
+
+.greysection{
+  width: 100%;
+  background-color: #f4f9fd;
+}
+
+.nobackgroundsection{
+  margin: auto;
+  width: 85%;
+  padding: 40px 0;
+  text-align: center;
+}
+
+
+
+.nobackgroundsection img{
+  display: block;
+  margin: auto;
+  margin-bottom: 20px;
+  height: 200px;
 }
