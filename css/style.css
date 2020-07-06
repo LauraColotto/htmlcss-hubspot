@@ -26,6 +26,7 @@ h3{
 
 h4{
  font-size: 24px;
+ text-transform: uppercase;
 }
 
 p{
@@ -34,13 +35,14 @@ p{
   padding: 35px 0;
 }
 
-.Clear::after{
+.clear::after{
   content: "";
   display: table;
   clear: both;
 }
 
 i{
+  list-style: none;
   font-size: 14px;
   display: inline-block
 
@@ -95,10 +97,6 @@ header{
   margin:auto;
 }
 
-header li{
-  list-style: none;
-  display: inline-block;
-}
 
 .headertop{
   height: 70px;
@@ -267,7 +265,39 @@ header li{
 
 .verticalwhite{
   float: left;
-  width: calc(100%/3);
-  height: 500px;
-  background-color: blue;
+  width: 30%;
+  margin-top: 80px;
+  padding: 10px 40px;
+}
+
+.verticalwhite-central{
+  float: left;
+  margin: 0 5%;
+  margin-top: 80px;
+  width: 30%;
+  padding: 10px 40px;
+}
+
+.servicevertical{
+  text-align: center;
+}
+
+.servicevertical hr{
+  display: block;
+  border: 1px solid #33475b;
+  margin: 40px auto;
+}
+
+.servicevertical ul{
+  margin: 40px 0;
+}
+
+.servicevertical li{
+  display: block;
+  text-align: left;
+  padding: 3px 0;
+}
+
+.servicevertical i{
+  margin-right: 10px;
 }
