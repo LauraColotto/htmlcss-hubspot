@@ -121,12 +121,16 @@ header{
 
 
 .headertop{
+  position: fixed;
+  top: 0;
+  left: 0;
   height: 70px;
   width: 100%;
   padding: 0 15%;
   line-height: 70px;
   background-color: #f4f9fd;
   border-bottom: 1px solid #32495b;
+  z-index: 3;
 }
 
 .infotop{
@@ -148,6 +152,7 @@ header{
 
 
 .header-subtop{
+  margin-top: 70px;
   background-color: white;
   height: 70px;
   width: 100%;
@@ -528,13 +533,13 @@ footer button{
   border-bottom: 1px solid white;
 }
 
-#languages li{
+#languages li , .footer-bottom-right li{
   display: inline-block;
-  margin-right: 25px;
+  margin-left: 25px;
 }
 
-#languages li:last-child{
-  margin-right: 0px;
+#languages li:first-child{
+  margin-left: 0px;
 }
 
 #footer-bottom{
@@ -555,10 +560,6 @@ footer button{
 
 }
 
-.footer-bottom-right li{
-  display: inline-block;
-  margin-left: 25px;
-}
 
 footer p{
   color: white;
